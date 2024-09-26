@@ -85,7 +85,7 @@ const Header = () => {
                         sticky
                           ? "/images/logo/DeluluBlackLogo.png"
                           : "/images/logo/DeluluLogo.png"
-                      }`}
+                    }`}
                       alt="logo"
                       width={140}
                       height={30}
