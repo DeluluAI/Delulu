@@ -9,7 +9,7 @@ export function Companies() {
   ]
     return (
     <div className="flex flex-col items-center justify-center md:w-full py-64">
-      <h1 className="text-3xl font-bold mb-8">Con la confianza de las mejores marcas</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">Con la confianza de las mejores marcas</h1>
       <div className="flex flex-wrap justify-center gap-4">
         {companies.map((company, index) => (
           <Image 
