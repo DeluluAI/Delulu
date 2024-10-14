@@ -1,7 +1,9 @@
+import { AdminDashboardComponent } from "@/components/dashboard/admin-dashboard"
+
 export default function DashboardPage() {
     return (
         <div>
-            <h1>Dashboard</h1>
+            <AdminDashboardComponent />
         </div>
     )
 }
