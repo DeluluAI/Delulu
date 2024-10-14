@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+<div align="center">
+  <h1>Delulu</h1>
+  <img src="https://github.com/user-attachments/assets/fcc4720f-804e-45e3-b05b-49d257c4c186" width='800px' />
+  <br/>
+  <br/>
+  <p>Transforma interacciones en Insights con Inteligencia Artificial</p>
+  <div>
+    <img src='https://img.shields.io/badge/License-MIT-yellow.svg' />
+  </div>
+  
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **Cómo Empezar**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para configurar el proyecto en tu entorno local, sigue estos pasos:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clonar el repositorio:**
 
-## Learn More
+   ```bash
+   git clone https://github.com/yourusername/delulu.git
+   cd delulu
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Instalar dependencias:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Iniciar el servidor de desarrollo:**
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación en funcionamiento.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## **Estructura del Proyecto**
+
+- **`components/`**: Componentes React reutilizables de la aplicación.
+- **`app/`**: Layout principal y páginas del proyecto.
+- **`lib/`**: Funciones utilitarias usadas en toda la aplicación.
+- **`public/`**: Archivos estáticos como imágenes y fuentes.
+- **`styles/`**: Estilos globales y configuración de Tailwind CSS.
+
+## **Características Principales**
+
+- **Diseño Adaptable**: Optimizado para ofrecer una experiencia perfecta tanto en dispositivos móviles como de escritorio.
+- **Insights de IA**: Analiza y convierte interacciones en insights accionables para mejorar la experiencia del cliente.
+- **Integración con CRM**: Sincronización fluida de datos con los CRM más utilizados, y capacidad de adaptación a sistemas personalizados.
+- **Modo Oscuro**: Soporte para modo oscuro, adaptado a preferencias de accesibilidad y usuario.
+
+## **Tecnologías Utilizadas**
+
+- **Next.js**: Framework de React para crear aplicaciones web rápidas y eficientes.
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Tailwind CSS**: Framework de CSS orientado a utilidades para un desarrollo rápido de interfaces.
+- **Framer Motion**: Biblioteca para crear animaciones en React.
+- **Radix UI**: Conjunto de componentes de bajo nivel para desarrollar apps web accesibles.
+- **shadcn/ui**: Libreria UI con componentes para hacer el desarrollo de la app más sencilla. 
+
+## **Despliegue**
+
+La forma más sencilla de desplegar tu aplicación Next.js es usar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), creada por los desarrolladores de Next.js.
+
+## **Más Información**
+
+Para aprender más sobre Next.js, visita los siguientes recursos:
+
+- [Documentación de Next.js](https://nextjs.org/docs) - Descubre las funcionalidades y API de Next.js.
+- [Aprende Next.js](https://nextjs.org/learn) - Tutorial interactivo de Next.js.
+
+## **Licencia**
+
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
