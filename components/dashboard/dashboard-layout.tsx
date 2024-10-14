@@ -32,7 +32,7 @@ export function DashboardLayoutComponent({ children }: { children: React.ReactNo
         <div className="p-4 flex justify-center">
           <Button variant="ghost" onClick={toggleSidebar} className="p-0">
             <Image
-              src="/dashboard/bmw.svg"
+              src="/dashboard/bavaria.png"
               alt="BMW"
               width={48}
               height={48}
@@ -42,7 +42,7 @@ export function DashboardLayoutComponent({ children }: { children: React.ReactNo
         </div>
         <nav className="mt-4">
           <MenuItem icon={<Layout />} label="Dashboard" isExpanded={isSidebarExpanded} link="/dashboard" />
-          <MenuItem icon={<Users />} label="Empleados" isExpanded={isSidebarExpanded} link="/dashboard/employees" />
+          <MenuItem icon={<Users2 />} label="Mi Equipo" isExpanded={isSidebarExpanded} link="/dashboard/team" />
           <MenuItem icon={<BarChart2 />} label="Interacciones" isExpanded={isSidebarExpanded} link="/dashboard/interactions" />
           <MenuItem icon={<BarChart2 />} label="Reportes" isExpanded={isSidebarExpanded} link="/dashboard/reports" />
           <MenuItem icon={<MessageSquare />} label="Conversaciones" isExpanded={isSidebarExpanded} link="/dashboard/conversations" />
@@ -50,7 +50,6 @@ export function DashboardLayoutComponent({ children }: { children: React.ReactNo
           <div className="my-4 border-t border-gray-200"></div>
 
           <h3 className="text-gray-500 text-sm font-semibold px-4 mb-2">Admin</h3>
-          <MenuItem icon={<Users2 />} label="Mi Equipo" isExpanded={isSidebarExpanded} link="/dashboard/team" />
           <MenuItem icon={<Puzzle />} label="Integraciones" isExpanded={isSidebarExpanded} link="/dashboard/integrations" />
           <MenuItem icon={<Bell />} label="Notificaciones" isExpanded={isSidebarExpanded} link="/dashboard/notifications" />
           <MenuItem icon={<Flag />} label="Ayuda" isExpanded={isSidebarExpanded} link="/dashboard/help" />
