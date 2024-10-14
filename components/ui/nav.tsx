@@ -36,6 +36,8 @@ export function NavComponent() {
                                 <Link href="/productos" className="text-gray-600 hover:text-gray-900">Productos</Link>
                                 <Link href="/soluciones" className="text-gray-600 hover:text-gray-900">Soluciones</Link>
                                 <Link href="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</Link>
+                                <Link href="/nosotros" className="text-gray-600 hover:text-gray-900">Sobre Delulu</Link>
+                                <Link href="/contacto" className="text-gray-600 hover:text-gray-900">Contacto</Link>
                                 <Button variant="ghost" className="justify-start">Iniciar Sesión</Button>
                                 <Button variant="default" className="justify-start">Registrarse</Button>
                             </nav>
