@@ -46,13 +46,6 @@ Para configurar el proyecto en tu entorno local, sigue estos pasos:
 - **`public/`**: Archivos estáticos como imágenes y fuentes.
 - **`styles/`**: Estilos globales y configuración de Tailwind CSS.
 
-## **Características Principales**
-
-- **Diseño Adaptable**: Optimizado para ofrecer una experiencia perfecta tanto en dispositivos móviles como de escritorio.
-- **Insights de IA**: Analiza y convierte interacciones en insights accionables para mejorar la experiencia del cliente.
-- **Integración con CRM**: Sincronización fluida de datos con los CRM más utilizados, y capacidad de adaptación a sistemas personalizados.
-- **Modo Oscuro**: Soporte para modo oscuro, adaptado a preferencias de accesibilidad y usuario.
-
 ## **Tecnologías Utilizadas**
 
 - **Next.js**: Framework de React para crear aplicaciones web rápidas y eficientes.
