@@ -1,7 +1,6 @@
+import { MyTeamDashboardComponent } from "@/components/dashboard/my-team-dashboard"
 export default function TeamPage() {
     return (
-        <div>
-            <h1>Team</h1>
-        </div>
+        <MyTeamDashboardComponent />
     )
 }
