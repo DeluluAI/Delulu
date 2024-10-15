@@ -41,6 +41,7 @@ export function DashboardLayoutComponent({ children }: { children: React.ReactNo
           </Button>
         </div>
         <nav className="mt-4">
+          <h3 className="text-gray-500 text-sm font-semibold px-4 mb-2">General</h3>
           <MenuItem icon={<Layout />} label="Dashboard" isExpanded={isSidebarExpanded} link="/dashboard" />
           <MenuItem icon={<Users2 />} label="Mi Equipo" isExpanded={isSidebarExpanded} link="/dashboard/team" />
           <MenuItem icon={<BarChart2 />} label="Interacciones" isExpanded={isSidebarExpanded} link="/dashboard/interactions" />
@@ -120,7 +121,7 @@ export function DashboardLayoutComponent({ children }: { children: React.ReactNo
 function MenuItem({ icon, label, isExpanded, link }: { icon: React.ReactNode; label: string; isExpanded: boolean, link: string }) {
   return (
     <a href={link} className={cn(
-      "flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100 transition-all duration-300 ease-in-out",
+      "flex items-center pl-12 py-2 text-gray-700 hover:bg-gray-100 transition-all duration-300 ease-in-out",
       isExpanded ? "justify-start" : "justify-center"
     )}>
       <span className={cn("flex items-center justify-center", isExpanded ? "w-5" : "w-full")}>
