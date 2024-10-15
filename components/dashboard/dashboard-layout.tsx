@@ -44,9 +44,8 @@ export function DashboardLayoutComponent({ children }: { children: React.ReactNo
           <h3 className="text-gray-500 text-sm font-semibold px-4 mb-2">General</h3>
           <MenuItem icon={<Layout />} label="Dashboard" isExpanded={isSidebarExpanded} link="/dashboard" />
           <MenuItem icon={<Users2 />} label="Mi Equipo" isExpanded={isSidebarExpanded} link="/dashboard/team" />
-          <MenuItem icon={<BarChart2 />} label="Interacciones" isExpanded={isSidebarExpanded} link="/dashboard/interactions" />
+          <MenuItem icon={<MessageSquare />} label="Interacciones" isExpanded={isSidebarExpanded} link="/dashboard/interactions" />
           <MenuItem icon={<BarChart2 />} label="Reportes" isExpanded={isSidebarExpanded} link="/dashboard/reports" />
-          <MenuItem icon={<MessageSquare />} label="Conversaciones" isExpanded={isSidebarExpanded} link="/dashboard/conversations" />
 
           <div className="my-4 border-t border-gray-200"></div>
 
@@ -121,8 +120,8 @@ export function DashboardLayoutComponent({ children }: { children: React.ReactNo
 function MenuItem({ icon, label, isExpanded, link }: { icon: React.ReactNode; label: string; isExpanded: boolean, link: string }) {
   return (
     <a href={link} className={cn(
-      "flex items-center pl-12 py-2 text-gray-700 hover:bg-gray-100 transition-all duration-300 ease-in-out",
-      isExpanded ? "justify-start" : "justify-center"
+      "flex items-center py-2 text-gray-700 hover:bg-gray-100 transition-all duration-300 ease-in-out",
+      isExpanded ? "justify-start pl-12" : "justify-center"
     )}>
       <span className={cn("flex items-center justify-center", isExpanded ? "w-5" : "w-full")}>
         {icon}
