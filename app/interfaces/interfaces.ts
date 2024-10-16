@@ -26,7 +26,7 @@ export interface Interaction {
     topics: string[];
 }
 
-export interface ChatMessage {
+export interface ChatMessage { 
     sender: 'employee' | 'client';
     content: string;
     timestamp: string;
