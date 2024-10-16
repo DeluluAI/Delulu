@@ -38,15 +38,15 @@ export function NavComponent() {
                                 <Link href="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</Link>
                                 <Link href="/nosotros" className="text-gray-600 hover:text-gray-900">Sobre Delulu</Link>
                                 <Link href="/contacto" className="text-gray-600 hover:text-gray-900">Contacto</Link>
-                                <Button variant="ghost" className="justify-start">Iniciar Sesión</Button>
-                                <Button variant="default" className="justify-start">Registrarse</Button>
+                                <Link href="/login" className="text-gray-600 hover:text-gray-900 justify-start">Iniciar Sesión</Link>
+                                <Link href="/register" className="text-gray-600 hover:text-gray-900 justify-start">Registrarse</Link>
                             </nav>
                         </SheetContent>
                     </Sheet>
                 </div>
                 <div className="hidden md:flex space-x-4">
-                    <Button variant="ghost">Iniciar Sesión</Button>
-                    <Button variant="default">Registrarse</Button>
+                    <Link href="/login" className="text-gray-600 hover:text-gray-900 px-4 py-2 rounded-md transition-colors duration-300 border-[1px] border-gray-300 hover:border-gray-400 justify-start">Iniciar Sesión</Link>
+                    <Link href="/register" className="text-white bg-black px-4 py-2 rounded-md transition-colors duration-300 hover:bg-gray-600 justify-start">Registrarse</Link>
                 </div>
             </div>
         </header>

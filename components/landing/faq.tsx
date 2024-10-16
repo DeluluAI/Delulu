@@ -2,7 +2,6 @@
 
 import React from 'react'
 import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import {
   Accordion,
@@ -10,7 +9,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import { ChevronRight, Search, Book, Bell, User, MessageCircle, FileText, Video, PresentationIcon, Settings } from 'lucide-react'
+import { Search, Book, Bell, User, MessageCircle, FileText, Video, PresentationIcon, Settings } from 'lucide-react'
 
 const faqCategories = [
   {

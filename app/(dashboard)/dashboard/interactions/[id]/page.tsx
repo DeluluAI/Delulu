@@ -13,7 +13,7 @@ export default function InteractionChatPage({ params }: { params: { id: number }
             },
             client: {
                 name: "Sarah Johnson",
-                avatar: "/placeholder.svg?height=40&width=40"
+                avatar: ""
             },
             messages: [
                 { id: 1, sender: 'employee', content: "¡Hola! Bienvenido a BMW Polanco. ¿En qué puedo ayudarte hoy?", timestamp: "14:30" },
@@ -39,7 +39,7 @@ export default function InteractionChatPage({ params }: { params: { id: number }
             },
             client: {
                 name: "Sarah Johnson",
-                avatar: "/placeholder.svg?height=40&width=40"
+                avatar: ""
             },
             messages: [
                 { id: 1, sender: 'employee', content: "¡Hola! Bienvenido a BMW Polanco. ¿En qué puedo ayudarte hoy?", timestamp: "09:15" },
@@ -59,7 +59,7 @@ export default function InteractionChatPage({ params }: { params: { id: number }
             },
             client: {
                 name: "Sarah Johnson",
-                avatar: "/placeholder.svg?height=40&width=40"
+                avatar: ""
             },
             messages: [
                 { id: 1, sender: 'employee', content: "¡Hola! Bienvenido a BMW Polanco. ¿En qué puedo ayudarte hoy?", timestamp: "09:15" },
@@ -79,7 +79,7 @@ export default function InteractionChatPage({ params }: { params: { id: number }
             },
             client: {
                 name: "Sarah Johnson",
-                avatar: "/placeholder.svg?height=40&width=40"
+                avatar: ""
             },
             messages: [
                 { id: 1, sender: 'employee', content: "¡Hola! Bienvenido a BMW Polanco. ¿En qué puedo ayudarte hoy?", timestamp: "09:15" },
@@ -99,7 +99,7 @@ export default function InteractionChatPage({ params }: { params: { id: number }
             },
             client: {
                 name: "Sarah Johnson",
-                avatar: "/placeholder.svg?height=40&width=40"
+                avatar: ""
             },
             messages: [
                 { id: 1, sender: 'employee', content: "¡Hola! Bienvenido a BMW Polanco. ¿En qué puedo ayudarte hoy?", timestamp: "09:15" },
@@ -119,7 +119,7 @@ export default function InteractionChatPage({ params }: { params: { id: number }
             },
             client: {
                 name: "Sarah Johnson",
-                avatar: "/placeholder.svg?height=40&width=40"
+                avatar: ""
             },
             messages: [
                 { id: 1, sender: 'employee', content: "¡Hola! Bienvenido a BMW Polanco. ¿En qué puedo ayudarte hoy?", timestamp: "09:15" },

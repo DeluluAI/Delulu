@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { Bell, ChevronDown, Layout, Users, BarChart2, MessageSquare, Users2, Puzzle, Settings, Search, ChevronRight, Flag } from 'lucide-react'
+import { Bell, ChevronDown, Layout, BarChart2, MessageSquare, Users2, Puzzle, Settings, Search, ChevronRight, Flag } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import {

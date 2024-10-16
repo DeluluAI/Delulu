@@ -8,8 +8,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Line, LineChart, Bar, BarChart, ResponsiveContainer, XAxis, YAxis, Tooltip, Legend } from "recharts"
-import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
-import { Mail, Phone, MapPin, Car, TrendingUp, Users } from 'lucide-react'
+import { ChartContainer,  ChartTooltipContent } from "@/components/ui/chart"
+import { Mail, Phone, MapPin } from 'lucide-react'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 
 // Sample performance data for charts
@@ -146,7 +146,7 @@ function AchievementsCard({ employee }: { employee: Employee }) {
   )
 }
 
-function PerformanceChart({ employee }: { employee: Employee }) {
+function PerformanceChart() {
   return (
     <Card>
       <CardHeader>
@@ -198,7 +198,7 @@ function SentimentAnalysisChart() {
   )
 }
 
-function InteractionsTable({ employee }: { employee: Employee }) {
+function InteractionsTable() {
   return (
     <Card>
       <CardHeader>
@@ -244,10 +244,10 @@ export function EmployeePerformanceComponent({ employee }: { employee: Employee 
         <AchievementsCard employee={employee} />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <PerformanceChart employee={employee} />
+        <PerformanceChart />
         <SentimentAnalysisChart />
       </div>
-      <InteractionsTable employee={employee} />
+      <InteractionsTable />
     </div>
   )
 }
