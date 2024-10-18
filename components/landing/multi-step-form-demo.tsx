@@ -16,27 +16,7 @@ import {
 } from "@/components/ui/form";
 import { Select, SelectTrigger, SelectContent, SelectItem, SelectValue } from "@/components/ui/select";
 import { toast } from "@/hooks/use-toast";
-
-const formSchema = z.object({
-  companyName: z.string().min(2, { message: "El nombre de la empresa es obligatorio." }),
-  numberOfEmployees: z.string().optional(),
-  industry: z.string().min(1, { message: "Por favor seleccione una industria." }),
-  fullName: z.string().min(2, { message: "El nombre completo es obligatorio." }), 
-  email: z.string().email({ message: "Dirección de correo electrónico inválida." }),
-  phoneNumber: z.string().optional(),
-  jobTitle: z.string().optional(),
-  username: z.string().optional(),
-  password: z.string().min(6, { message: "La contraseña debe tener al menos 6 caracteres." }),
-  confirmPassword: z.string(),
-  crmIntegration: z.string(),
-  primaryGoal: z.string().optional(),
-  howDidYouHear: z.string().optional(),
-  communicationPreferences: z.boolean().optional(),
-  termsAccepted: z.boolean().refine(val => val === true, { message: "Debe aceptar los términos." }),
-}).refine(data => data.password === data.confirmPassword, {
-  message: "Las contraseñas no coinciden.",
-  path: ["confirmPassword"],
-});
+import { formSchema } from "@/app/schemas/schemas";
 
 export function CompanySignUpForm() {
   const form = useForm({
