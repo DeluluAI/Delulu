@@ -24,16 +24,15 @@ export const metadata: Metadata = {
   },
 };
 
-
-
 interface StepperLayoutProps {
   children: React.ReactNode
-  currentStep: number
+  currentStep: number,
+  url: string
 }
+
 
 export default function RegisterLayout({
   children,
-  currentStep = 1
 }:
   StepperLayoutProps
 ) {
@@ -41,7 +40,7 @@ export default function RegisterLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="flex flex-row justify-between h-screen">
-          <LeftMenu currentStep={currentStep} />
+          <LeftMenu />
           <div className="flex justify-center w-full">
           {children}
           </div>

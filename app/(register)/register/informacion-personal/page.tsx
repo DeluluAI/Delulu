@@ -100,6 +100,7 @@ export default function PersonalDataForm() {
                             'mt-4 w-64 p-2 text-center text-sm rounded-md transition-colors duration-300 ease-in-out',
                             'bg-gray-950 text-white hover:bg-blue-600'
                         )}
+                        onClick={() => router.push('/register/codigo-de-verificacion')}
                     >
                         Crear mi cuenta
                     </Button>

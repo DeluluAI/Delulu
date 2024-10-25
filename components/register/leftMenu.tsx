@@ -1,14 +1,27 @@
+'use client'
 import { MoveRight } from 'lucide-react';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
-export default function LeftMenu({ currentStep }: { currentStep: number }) {
+export default function LeftMenu() {
+
+    const pathName = usePathname()
+    const pathToStepMap: { [key: string]: number } = {
+        '/register/email': 1,
+        '/register/informacion-personal': 2,
+        '/register/codigo-de-verificacion': 3,
+        '/register/informacion-de-compania': 4,
+        '/register/informacion-fiscal': 5,
+    };
+    const currentStep = pathToStepMap[pathName]; 
+    console.log('currentStep', pathName, currentStep)
     const steps = [
-        { id: '1', name: 'Email' },
-        { id: '2', name: 'Verificación' },
-        { id: '3', name: 'Datos Personales' },
-        { id: '4', name: 'Datos de la empresa' },
-        { id: '5', name: 'Datos fiscales' },
-    ]
+        { name: 'Correo electrónico' },
+        { name: 'Código de verificación' },
+        { name: 'Datos personales' },
+        { name: 'Datos de empresa' },
+        { name: 'Datos fiscales' },
+    ];
 
     return (
         <div>
