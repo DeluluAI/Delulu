@@ -7,8 +7,44 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
 export function NavComponent() {
+    const NavItems: { title: string; href: string; description: string }[] = [
+        {
+            title: "Blog",
+            href: "/docs/primitives/alert-dialog",
+            description:
+                "Descubre las mejores formas de administrar tu dinero y tus impuestos.",
+        },
+        {
+            title: "FAQs",
+            href: "/docs/primitives/hover-card",
+            description:
+                "Resuelve tus dudas acerca de tus impuestos y tu contabilidad.",
+        },
+        {
+            title: "Noticias",
+            href: "/docs/primitives/progress",
+            description:
+                "Enterate de todo el progreso que hemos tenido en los últimos meses.",
+        },
+        {
+            title: "Ultimos cambios en la ley",
+            href: "/docs/primitives/scroll-area",
+            description: "Conoce los últimos cambios en la ley de impuestos en México.",
+        },
+        {
+            title: "Calculadoras",
+            href: "/docs/primitives/tabs",
+            description:
+                "Calcula tus impuestos de forma sencilla y sin complicaciones.",
+        },
+        {
+            title: "Nosotros",
+            href: "/docs/primitives/tooltip",
+            description:
+                "Una vista más a fondo de Impuesto Sencillo y de nuestro equipo.",
+        },
+    ];
     const [isOpen, setIsOpen] = useState(false)
-
     const toggleDrawer = () => setIsOpen(!isOpen)
 
     return (

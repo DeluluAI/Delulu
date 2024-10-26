@@ -83,11 +83,10 @@ export default function BlogPage() {
             <header className="relative h-[60vh] min-h-[400px] bg-slate-900 text-white">
                 <Image
                     src="/blog/Cool-Shape.png"
-                    alt="IA y Perspectivas de Clientes"
-                    layout="fill"
                     objectFit="cover"
                     objectPosition="center"
                     className="absolute"
+                    alt="Fondo lleno de figuras de colores radiantes y abstractas"
                 />
                 <div className="absolute bg-gradient-to-b from-black to-transparent md:w-full md:h-[480px]"></div>
                 <div className="container mx-auto px-4 py-12 relative z-10 h-full flex flex-col justify-center">
@@ -152,7 +151,6 @@ function PopularArticleLarge({ article }: { article: Article }) {
                     <Image
                         src={article.image}
                         alt={article.title}
-                        layout="fill"
                         objectFit="cover"
                         className="rounded-t-lg md:rounded-l-lg md:rounded-tr-none"
                     />
@@ -178,7 +176,6 @@ function PopularArticleSmall({ article }: { article: Article }) {
                     <Image
                         src={article.image}
                         alt={article.title}
-                        layout="fill"
                         objectFit="cover"
                         className="rounded-l-lg"
                     />
