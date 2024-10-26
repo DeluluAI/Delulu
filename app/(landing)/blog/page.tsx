@@ -86,10 +86,11 @@ export default function BlogPage() {
                     objectFit="cover"
                     objectPosition="center"
                     className="absolute"
-                    alt="Fondo lleno de figuras de colores radiantes y abstractas"
+                    alt="Fondo lleno de figuras de colores radiantes"
+                    layout="fill"
                 />
                 <div className="absolute bg-gradient-to-b from-black to-transparent md:w-full md:h-[480px]"></div>
-                <div className="container mx-auto px-4 py-12 relative z-10 h-full flex flex-col justify-center">
+                <div className="container mx-auto p-12 relative z-10 h-full flex flex-col justify-center">
                     <div className="max-w-3xl">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4">Insights con IA: Transformando la Experiencia del Cliente</h1>
                         <p className="text-xl md:text-2xl text-gray-100 mb-8">Explorando la intersección de la IA, la experiencia del cliente y la innovación empresarial</p>
@@ -153,6 +154,7 @@ function PopularArticleLarge({ article }: { article: Article }) {
                         alt={article.title}
                         objectFit="cover"
                         className="rounded-t-lg md:rounded-l-lg md:rounded-tr-none"
+                        layout="fill"
                     />
                 </div>
                 <div className="md:w-1/3 p-6">
@@ -178,6 +180,7 @@ function PopularArticleSmall({ article }: { article: Article }) {
                         alt={article.title}
                         objectFit="cover"
                         className="rounded-l-lg"
+                        layout="fill"
                     />
                 </div>
                 <div className="w-2/3 p-4">
