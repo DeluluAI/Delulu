@@ -1,4 +1,4 @@
-import { NavComponent } from "@/components/ui/nav";
+import { NavMenu } from "@/components/navigation-menu";
 import Footer from '@/components/ui/footer';
 
 import type { Metadata } from "next";
@@ -33,8 +33,8 @@ export default function LandingLayout({
 }) {
     return (
         <html lang="en">
-            <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-                <NavComponent />
+            <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col items-center`}>
+                <NavMenu />
                 {children}
                 <Footer />
             </body>
