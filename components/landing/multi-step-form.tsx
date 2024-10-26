@@ -7,7 +7,6 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Textarea } from "@/components/ui/textarea"
 import { cn } from "@/lib/utils"
-import { PinLeftIcon } from '@radix-ui/react-icons'
 import { Check, MoveLeft } from 'lucide-react'
 import Link from 'next/link'
 

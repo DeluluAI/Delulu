@@ -24,18 +24,7 @@ export const metadata: Metadata = {
   },
 };
 
-interface StepperLayoutProps {
-  children: React.ReactNode
-  currentStep: number,
-  url: string
-}
-
-
-export default function RegisterLayout({
-  children,
-}:
-  StepperLayoutProps
-) {
+export default function RegisterLayout({children}:{children: React.ReactNode}) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>

@@ -107,7 +107,7 @@ export default function PersonalDataForm() {
                 </div>
                 <div className="flex flex-row justify-center">
                     <p className="text-gray-500 text-center">
-                        Cuando des click en 'Crear cuenta', te enviaremos un código de un solo uso para verificar tu celular. *Pueden aplicar tarifas por mensajes y datos*. Consulta nuestros
+                        Cuando des click en  &apos;Crear cuenta&apos;, te enviaremos un código de un solo uso para verificar tu celular. *Pueden aplicar tarifas por mensajes y datos*. Consulta nuestros
                         <Link href="/terminos-condiciones" className="text-blue-500 underline mx-2 hover:text-blue-800">Términos, Condiciones</Link>
                         y
                         <Link href='/aviso-de-privacidad' className="text-blue-500 underline mx-2 hover:text-blue-800">Aviso de Privacidad para Clientes y Prospectos.</Link>
