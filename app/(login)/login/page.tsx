@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Separator } from "@/components/ui/separator"
-import { InstagramLogoIcon } from '@radix-ui/react-icons'
+
 export default function SignUpFormComponent() {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
@@ -40,7 +40,7 @@ export default function SignUpFormComponent() {
                 </div>
                 <div className="p-8 bottom-0 absolute">
                     <div>
-                        <p className="text-lg">"Delulu nos ha ayudado a hacer de nuestra vida mucho mas facil a la hora de trabajar."</p>
+                        <p className="text-lg">&quot;Delulu nos ha ayudado a hacer de nuestra vida mucho mas facil a la hora de trabajar.&quot;</p>
                         <p className="mt-2">Sofia Muñiz</p>
                     </div>
                 </div>
